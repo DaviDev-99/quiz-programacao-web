@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="bloco">
+        <p id="contador"></p>
+        <h1 style="margin-bottom: 10px;">Quiz sobre programação!</h1>
+        <hr>
+        <p id="pergunta">pergunta</p>
+        <div id="acertos">
+            <p id="mostrarAcertos" style="font-size: 30px;"></p>
+            <i class="bi bi-check2" style="font-size: 100px;"></i>
+        </div>
+        <div class="alternativas">
+            <p id="alt-1" onclick="responder(1)">Alternativa 1</p>
+            <p id="alt-2" onclick="responder(2)">Alternativa 2</p>
+            <p id="alt-3" onclick="responder(3)">Alternativa 3</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

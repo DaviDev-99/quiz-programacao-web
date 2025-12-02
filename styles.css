@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Mulish", sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(36, 36, 37);
+    background-color: #333533;
+    text-align: center;
+    color: #d6d6d6;
+}
+
+.bloco{
+    border: 1px solid black;
+    padding: 30px 20px;
+    height: 335px;
+    width: 500px;
+    background-color: #202020;
+    border-radius: 12px;
+}
+
+.bloco p{
+    margin: 20px 0;
+}
+
+.bloco hr{
+    border: 0;
+    height: 2px;
+    background-color: #ffd100;
+}
+
+#alt-1, #alt-2, #alt-3{
+    width: 100%;
+    background-color: #131313;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ffd100;
+    transition: padding 0.3s ease-in-out;
+}
+
+#alt-1:hover, #alt-2:hover, #alt-3:hover{
+    padding: 12px;
+}
+
+button{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #3e613a;
+    border: 1px solid black;
+    color: #e9edc9;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#acertos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#acertos i{
+    color: #ffd100;
+}
+
+#contador{
+    margin: 0;
+    font-size: 12px;
+}
